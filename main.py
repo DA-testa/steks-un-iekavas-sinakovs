@@ -38,7 +38,7 @@ def main():
     # Printing answer, write your code here
     if "I" in text:
         text=input()
-    elif "F" in text:
+    elif "G" in text:
         filen=input()
         with open(("./test/"+filen),"r") as file:
         # open(name,read write...)
