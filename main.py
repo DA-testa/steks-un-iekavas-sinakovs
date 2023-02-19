@@ -40,7 +40,7 @@ def main():
         text=input()
     elif "F" in text:
         filen=input()
-        with open(filen,"r") as file:
+        with open(("./test/"+filen),"r") as file:
         # open(name,read write...)
             text=file.read()
     mismatch = find_mismatch(text)
@@ -49,4 +49,3 @@ def main():
 if __name__ == "__main__":
     main()
 # norada ka main ir galvena
-# fdfd
